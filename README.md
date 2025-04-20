@@ -173,8 +173,8 @@
           <div class="pattern-bg"></div>
           <div class="img-box">
             <img src="./assets/images/Pedro e dog.jpeg" alt="Pedro Henrique" class="hero-img">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
+            <div class=""></div>
+            <div class=""></div>
           </div>
 
         </div>
@@ -640,7 +640,7 @@
                 <ion-icon name="server-outline"></ion-icon>
               </div>
 
-              <p>Database</p>
+              <p>Dinheiro?</p>
             </a>
 
             <a href="#" class="topic-btn">
@@ -648,7 +648,7 @@
                 <ion-icon name="accessibility-outline"></ion-icon>
               </div>
 
-              <p>Acessibilidades</p>
+              <p>Quem somos?</p>
             </a>
 
             <a href="#" class="topic-btn">
@@ -656,25 +656,25 @@
                 <ion-icon name="rocket-outline"></ion-icon>
               </div>
 
-              <p>Web Performance</p>
+              <p>Nosso site</p>
             </a>
 
           </div>
 
           <div class="tags">
 
-            <h2 class="h2">Tags</h2>
+            <h2 class="h2">Hashtag</h2>
 
             <div class="wrapper">
 
-              <button class="hashtag">#cybersec</button>
-              <button class="hashtag">#tec</button>
-              <button class="hashtag">#policial</button>
-              <button class="hashtag">#devs</button>
-              <button class="hashtag">#devops</button>
-              <button class="hashtag">#webperf</button>
-              <button class="hashtag">#optimize</button>
-              <button class="hashtag">#performance</button>
+              <button class="hashtag">#Personagens</button>
+              <button class="hashtag">#Animação</button>
+              <button class="hashtag">#Tiras</button>
+              <button class="hashtag">#Canal</button>
+              <button class="hashtag">#Cenários</button>
+              <button class="hashtag">#Youtube</button>
+              <button class="hashtag">#Tiktok</button>
+              <button class="hashtag">#Instagram</button>
 
             </div>
 
@@ -682,32 +682,31 @@
 
           <div class="contact">
 
-            <h2 class="h2">Vamos conversar</h2>
+            <h2 class="h2">Nossas redes</h2>
 
             <div class="wrapper">
 
               <p>
-                Quer saber mais sobre como posso ajudar sua empresa a superar problemas?
-                Vamos ter um conversação.
+                Quer saber mais onde aparecemos? Nos acompanhe em outras redes sociais também.
               </p>
 
               <ul class="social-link">
 
                 <li>
-                  <a href="#" class="icon-box discord">
-                    <ion-icon name="logo-discord"></ion-icon>
+                  <a href="#" class="icon-box youtube">
+                    <ion-icon name="logo-youtube"></ion-icon>
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="icon-box twitter">
-                    <ion-icon name="logo-twitter"></ion-icon>
+                  <a href="#" class="icon-box tiktok">
+                    <ion-icon name="logo-tiktok"></ion-icon>
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="icon-box facebook">
-                    <ion-icon name="logo-facebook"></ion-icon>
+                  <a href="#" class="icon-box instagram">
+                    <ion-icon name="logo-instagram"></ion-icon>
                   </a>
                 </li>
 
@@ -719,12 +718,12 @@
 
           <div class="newsletter">
 
-            <h2 class="h2">Boletim informativo</h2>
+            <h2 class="h2">Notificação</h2>
 
             <div class="wrapper">
 
               <p>
-                Assine nossa newsletter para estar entre os primeiros a acompanhar as últimas atualizações.
+                Se inscreva para acompanhar todas as nossas novas atualizações.
               </p>
 
               <form action="#">
