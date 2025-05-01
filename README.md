@@ -2,839 +2,236 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>P1D Oficial</title>
+   
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/Logo P1D.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/Logo P1D.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <title>P1D</title>
 </head>
 
-<body class="light-theme">
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Teacher Web</a>
+            </div>
 
-  <!--
-    - #HEADER
-  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
 
-  <header>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
 
-    <div class="container">
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Bem Vindo<br><span class="home__title-color"> ao meu</span><br> potifólio</h1>
 
-      <nav class="navbar">
+                <a href="https://api.whatsapp.com/send?phone=5513982051256&text=Ol%C3%A1!Vi%20seu%20Portifolio!%20Podemos%20Conversar?"
+                    target="_blank" class="button">Contato</a>
+            </div>
 
-        <a href="#">
-          <img src="./assets/images/Logo P1D sem fundo.jpg" alt="SimpleBlog logo" width="150" class="logo-light">
-          <img src="./assets/images/Logo P1D.jpg" alt="SimpleBlog logo" width="150" class="logo-dark">
-        </a>
+            <div class="home__social">
+                <a href="https://www.youtube.com/@pedro1dog498" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-youtube'></i></a>
+                <a href="https://www.instagram.com/pedroedog?igsh=dHdsNXM2MG9rdGJP" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="tiktok.com/@pedro1dog" target="_blank"
+                    class="home__social-icon"><i class='bx bxl-tiktok'></i></a>
+                <a href="https://github.com/" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+            </div>
 
-        <div class="btn-group">
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="./assets/" />
+                    </g>
+                </svg>
+            </div>
+        </section>
 
-          <button class="theme-btn theme-btn-mobile light">
-            <ion-icon name="moon" class="moon"></ion-icon>
-            <ion-icon name="sunny" class="sun"></ion-icon>
-          </button>
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Sobre</h2>
 
-          <button class="nav-menu-btn">
-            <ion-icon name="menu-outline"></ion-icon>
-          </button>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="./assets/img/Perfil nova.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Pedro Henrique Souza Costa</h2>
+                    <p class="about__text">
+                        Eu trabalho como animador do meu próprio canal e outras mídias ligadas, criando curtas animações através do Flipaclip.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Habilidades</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Habilidades profissionais</h2>
+                    <p class="skills__text">
+                        ➩ Experiência com desenhos simples.<br>
+                        ➩ Famialiarizado uso dos materiais como caneta touch e celular, (ainda a planejando o uso de tablet).<br>
+                        ➩ Uso o app Flipaclip para produzir as animações, (por enquanto fazendo uso da manca d´agua).<br>
+                        ➩ Os pequenos trabalhos pessois são finalizados por tempo indeterminado.<br>
+                        ➩ Conhecimento em desenhos cartonizados.<br>
+                        ➩Understanding web accessibility guidelines.<br>
+                        ➩Great problem solving and creative thinking skills.<br>
+                    </p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./assets/img/Mesa de animador.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <a href="https://cloud-channelshdtv.web.app/" target="_blank" class="work__img">
+                    <img src="./assets/img/Canal no youtube.png" alt="">
+                </a>
+                <a href="https://fabricadepicolepg.web.app/" target="_blank" class="work__img">
+                    <img src="./assets/img/Meu tiktok.png" alt="">
+                </a>
+                <a href="" target="_blank" class="work__img">
+                    <img src="./assets/img/Meu instagram.png" alt="">
+                </a>
+                <a href="https://kravmagactbelts.web.app/" target="_blank" class="work__img">
+                    <img src="assets/img/site 4.png" alt="">
+                </a>
+                <a href="https://casa-do-planejado.web.app/" target="_blank" class="work__img">
+                    <img src="assets/img/site 3.png" alt="">
+                </a>
+                <a href="https://reviews-book.web.app/" target="_blank" class="work__img">
+                    <img src="assets/img/site2.png" alt="">
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="https://formsubmit.co/seuemail" method="post" data-form
+                    class="contact__form">
+                    <input type="text" placeholder="Name" id="nome" required class="contact__input">
+                    <input type="mail" placeholder="Email" id="email" required class="contact__input">
+                    <textarea name="Mensagem" id="mensagem" cols="0" rows="10" class="contact__input"></textarea>
+                    <button type="submit" data-button class="contact__button button">Enviar</a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Teacher Web</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/israelcrispim" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/devops_web/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/Prof-IsraelCrispim/Aulas.git" class="footer__icon"><i
+                    class='bx bxl-github'></i></a>
+            <a href="mailto:webdevops.contato@gmail.com?subject=subject text" target="_blank" class="footer__icon"><i
+                    class='bx bxl-apple'></i></a>
+
 
         </div>
+        <p class="footer__copy">&#169; DevOps Israel Crispim. All rigths reserved</p>
+    </footer>
 
-        <div class="flex-wrapper">
 
-          <ul class="desktop-nav">
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-            <li>
-              <a href="#" class="nav-link">Home</a>
-            </li>
-
-            <li>
-              <a href="#" class="nav-link">Sobre</a>
-            </li>
-
-            <li>
-              <a href="#" class="nav-link">Contato</a>
-            </li>
-
-          </ul>
-
-          <button class="theme-btn theme-btn-desktop light">
-            <ion-icon name="moon" class="moon"></ion-icon>
-            <ion-icon name="sunny" class="sun"></ion-icon>
-          </button>
-
-        </div>
-
-        <div class="mobile-nav">
-
-          <button class="nav-close-btn">
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
-
-          <div class="wrapper">
-
-            <p class="h3 nav-title">Menu</p>
-
-            <ul>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Sobre</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contato</a>
-              </li>
-            </ul>
-
-          </div>
-
-          <div>
-
-            <p class="h3 nav-title">Tópicos</p>
-
-            <ul>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Tiras</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Personagens</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Cenários</a>
-              </li>
-            </ul>
-
-          </div>
-
-        </div>
-
-      </nav>
-
-    </div>
-
-  </header>
-
-
-
-
-
-  <main>
-
-    <!--
-      - #HERO SECTION
-    -->
-
-    <div class="hero">
-
-      <div class="container">
-
-        <div class="left">
-
-          <h1 class="h1">
-            Bem Vindo ao nosso site</b>.
-            <br>Onde você pode ver mais inforções nossas
-          </h1>
-
-          <p class="h3">
-            Aqui você verá muito mais do <abbr title="Pedro e Dog">canal e das redes sociais</abbr>
-            sobre o nosso contêudo!
-          </p>
-
-          <div class="btn-group">
-            <a href="#" class="btn btn-primary">Pedro1dog</a>
-            <a href="#" class="btn btn-secondary">Youtube</a>
-          </div>
-
-        </div>
-
-        <div class="right">
-
-          <div class="pattern-bg"></div>
-          <div class="img-box">
-            <img src="./assets/images/Pedro e dog.jpeg" alt="Pedro Henrique" class="hero-img">
-            <div class=""></div>
-            <div class=""></div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-
-
-
-    <div class="main">
-
-      <div class="container">
-
-        <!--
-          - BLOG SECTION
-        -->
-
-        <div class="blog">
-
-          <h2 class="h2">Últimas novidades</h2>
-
-          <div class="blog-card-group">
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/Pedro segurando uma bola de futebol.jpg" alt="Pedro no campinho do bairro" width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Animação</button>
-
-                <h3>
-                  <a href="#" class="h3">
-                    Penâlti
-                  </a>
-                </h3>
-
-                <p class="blog-text">
-                  Nesta nova curta animação, veremos Pedro das suas várias tentativas de fazer um simples gol de penâlti, será que desta vez vai?.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Pedro Henrique</a>
-
-                    <p class="text-sm">
-                      <time datetime="2022-01-17">26/01/2025 às 14:22</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></time-outline></ion-icon>
-                      <time datetime="PT3M">1 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/João conversando com a Laura enquanto varre o chão.jpg" alt="João converando com a Laura enquanto varre o chão" width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Tiras</button>
-
-                <h3><a href="" class="h3">Com cor ou sem cor?</a></h3>
-
-                <p class="blog-text">
-                  Dos poucos posts na conta do instagram, sempre enviei tiras com suas cores. Mas como seria se fosse apenas preto e branco?
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Pedro Henrique</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-12-10">27/08/2024 às 10:15</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT2M">3 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/Porque em duas partes.png" alt="A primeira animação dividida em duas partes no Tiktok" width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Animação</button>
-
-                <h3><a href="" class="h3">Porque em duas partes?</a></h3>
-
-                <p class="blog-text">
-                  Toda vez que eu postava uma animação de dois minutos no Tiktok, sempre era divida em duas parte, a primeira sendo postada antes mesmo da segunda ser finalizada, mas por quê?
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Pedro Henrique</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-11-28">27/08/2024 às 09:15</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT4M">4 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/Dog olhando pro vaso.png" alt="Dog no quintal" width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Personagens</button>
-
-                <h3><a href="" class="h3">Se ele é um pinscher, por que suas orelhas ficam todas pra baixo?</a>
-                </h3>
-
-                <p class="blog-text">
-                  Geralmente, todo pinscher tem suas orelhas um poucou ou completamente levantadas, mas por que as do Dog ficam completamente pra baixo?.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Pedro Henrique</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-11-20">27/08/2024 às 08:30</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT4M">7 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/Lucas jogando no seu computador-1.jpg" alt="Lucas jogando no seu computador" width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Personagens</button>
-
-                <h3><a href="" class="h3">O que significa "Maruyama", o sobrenome de Lucas?</a></h3>
-
-                <p class="blog-text">
-                  Como muitos personagens, cada um tem o seu sobrenome, por exemplo, Lucas Maruyama. Mas por que "Maruyama"?
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Pedro Henrique</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-11-10">26/08/2024 às 18:01</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT3M">8 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/A letra A.png"
-                  alt="Pedro junto com os seus amigos" width="250"
-                  class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Personagens</button>
-
-                <h3><a href="" class="h3">Uma letra "A"</a>
-                </h3>
-
-                <p class="blog-text">
-                  Pedro usa um casaco azul de manga curta com a letra "A" atrás, mas por que?
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Pedro Henrique</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-10-25">27/08/2024 às 08:01</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT7M">7 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/A escola de Pedro.jpg"
-                  alt="A escola deles vista de cima" width="250"
-                  class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Cenários</button>
-
-                <h3><a href="" class="h3">A escola de Pedro é inspirada em qual escola?</a>
-                </h3>
-
-                <p class="blog-text">
-                  Pedro e seus amigos estudam na escola estadual William Silva, mas ela é inspirada em qual escola na vida real?.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Pedro Henrique</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-10-15">26/08/2024 às 19:30</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT5M">5 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/O João em duas imagens.png" alt="O antes e o depois de João"
-                  width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Personagens</button>
-
-                <h3><a href="" class="h3">Sem orelhas?</a></h3>
-
-                <p class="blog-text">
-                  Entre os personagens, João tem detalhes simples do fato de ter apenas seis fios de cabelo. E por causa disso, é fácil notar que antes João era desenhado sem orelhas. Por que esta mudança?
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Pedro Henrique</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-10-03">27/08/2024 às 06:00</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT5M">5 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/A família de Pedro vendo um filme.jpg" alt="A família vendo filme"
-                  width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Personagens</button>
-
-                <h3><a href="" class="h3">A única loira da família?</a>
-                </h3>
-
-                <p class="blog-text">
-                  Dentro da casa, entre os membros da família, Laura a irmã de Pedro, é a única de cabelo loiro, mas será que sempre foi assim?.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Pedro Henrique</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-09-13">27/08/2024 às 11:00</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT7M">7 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/O primeiro vídeo do canal.avif" alt="O primeiro vídeo do canal"
-                  width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Canal</button>
-
-                <h3><a href="" class="h3">De jogos para animações?</a></h3>
-
-                <p class="blog-text">
-                  Você sabia que o canal postava jogos antes de postar animações?
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Pedro Henrique</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-09-21">12/08/2024 às 17:00</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT4M">4 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <button class="btn load-more">Ler mais...</button>
-
-        </div>
-
-
-
-
-
-        <!--
-          - ASIDE
-        -->
-
-        <div class="aside">
-
-          <div class="topics">
-
-            <h2 class="h2">Tópicos</h2>
-
-            <a href="#" class="topic-btn">
-              <div class="icon-box">
-                <ion-icon name="server-outline"></ion-icon>
-              </div>
-
-              <p>Dinheiro?</p>
-            </a>
-
-            <a href="#" class="topic-btn">
-              <div class="icon-box">
-                <ion-icon name="accessibility-outline"></ion-icon>
-              </div>
-
-              <p>Quem somos?</p>
-            </a>
-
-            <a href="#" class="topic-btn">
-              <div class="icon-box">
-                <ion-icon name="rocket-outline"></ion-icon>
-              </div>
-
-              <p>Nosso site</p>
-            </a>
-
-          </div>
-
-          <div class="tags">
-
-            <h2 class="h2">Hashtag</h2>
-
-            <div class="wrapper">
-
-              <button class="hashtag">#Personagens</button>
-              <button class="hashtag">#Animação</button>
-              <button class="hashtag">#Tiras</button>
-              <button class="hashtag">#Canal</button>
-              <button class="hashtag">#Cenários</button>
-              <button class="hashtag">#Youtube</button>
-              <button class="hashtag">#Tiktok</button>
-              <button class="hashtag">#Instagram</button>
-
-            </div>
-
-          </div>
-
-          <div class="contact">
-
-            <h2 class="h2">Nossas redes</h2>
-
-            <div class="wrapper">
-
-              <p>
-                Quer saber mais onde aparecemos? Nos acompanhe em outras redes sociais também.
-              </p>
-
-              <ul class="social-link">
-
-                <li>
-                  <a href="#" class="icon-box youtube">
-                    <ion-icon name="logo-youtube"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="icon-box tiktok">
-                    <ion-icon name="logo-tiktok"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="icon-box instagram">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                  </a>
-                </li>
-
-              </ul>
-
-            </div>
-
-          </div>
-
-          <div class="newsletter">
-
-            <h2 class="h2">Notificação</h2>
-
-            <div class="wrapper">
-
-              <p>
-                Se inscreva para acompanhar todas as nossas novas atualizações.
-              </p>
-
-              <form action="#">
-                <input type="email" name="email" placeholder="Email Address" required>
-
-                <button type="submit" class="btn btn-primary">Subscribe</button>
-              </form>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </main>
-
-
-
-
-
-  <!--
-    - #FOOTER
-  -->
-
-  <footer>
-
-    <div class="container">
-
-      <div class="wrapper">
-
-        <a href="#" class="footer-logo">
-          <img src="./assets/images/Logo P1D.jpg" alt="SimpleBlog Logo" width="150" class="logo-light">
-          <img src="./assets/images/Logo P1D sem fundo.jpg" alt="SimpleBlog Logo" width="150" class="logo-dark">
-        </a>
-
-        <p class="footer-text">
-          Não deixe de nos visitar um pouco em outras mídias.
-        </p>
-
-      </div>
-
-      <div class="wrapper">
-
-        <p class="footer-title">Links</p>
-
-        <ul>
-
-          <li>
-            <a href="#" class="footer-link">Youtube</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Tiktok</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">instagram</a>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <div class="wrapper">
-
-        <p class="footer-title">Coisas legais</p>
-
-        <ul>
-
-          <li>
-            <a href="#" class="footer-link">Aviso de Privacidade</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Política de Cookies</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Termos de Uso</a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </div>
-
-    <p class="copyright">
-      &copy; Copyright 2025 <a href="#">Pedro1dog</a>
-    </p>
-
-  </footer>
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/app.js"></script>
+    
 </body>
 
 </html>
