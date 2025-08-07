@@ -163,7 +163,7 @@
 
           <div class="btn-group">
             <a href="#" class="btn btn-primary">Pedro1dog</a>
-            <a href="#" class="btn btn-secondary">Youtube</a>
+            <a href="https://www.youtube.com/@pedro1dog498" class="btn btn-secondary">Youtube</a>
           </div>
 
         </div>
@@ -204,7 +204,9 @@
             <div class="blog-card">
 
               <div class="blog-card-banner">
-                <img src="./assets/images/Pedro segurando uma bola de futebol.jpg" alt="Pedro no campinho do bairro" width="250" class="blog-banner-img">
+                <a href="http://127.0.0.1:5500/assets/pagina1/index.html">
+                  <img src="./assets/images/Pedro segurando uma bola de futebol.jpg" alt="Pedro no campinho do bairro" width="250" class="blog-banner-img">
+                </a>
               </div>
 
               <div class="blog-content-wrapper">
@@ -212,19 +214,21 @@
                 <button class="blog-topic text-tiny">Animação</button>
 
                 <h3>
-                  <a href="#" class="h3">
+                  <a href="http://127.0.0.1:5500/assets/pagina1/index.html" class="h3">
                     Penâlti
                   </a>
                 </h3>
 
-                <p class="blog-text">
+                <a href="http://127.0.0.1:5500/assets/pagina1/index.html">
+                  <p class="blog-text">
                   Nesta nova curta animação, veremos Pedro das suas várias tentativas de fazer um simples gol de penâlti, será que desta vez vai?.
                 </p>
+                </a>
 
                 <div class="wrapper-flex">
 
                   <div class="profile-wrapper">
-                    <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
+                      <img src="./assets/images/Perfil.png" alt="Pedro Henrique" width="50">
                   </div>
 
                   <div class="wrapper">
