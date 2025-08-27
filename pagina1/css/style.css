@@ -4,6 +4,8 @@
 
  header { background-color: hsl(219, 95%, 58%);}
 
+ *{ margin: 0; }
+
 header .flex-wrapper { display: none; }
 
 .navbar {
@@ -220,6 +222,8 @@ header .flex-wrapper {
 
 footer { background: hsl(219, 95%, 58%); }
 
+*{ margin: 0; }
+
 footer .container {
     padding: 5rem 15px;
     display: grid;
@@ -245,8 +249,17 @@ footer .wrapper { text-align: center; }
     margin-bottom: 0.4rem;
 }
 
-.footer-link { color: hsla(0, 0%, 0%); }
+.footer-title {
+    color: hsl( 0, 0%, 100%);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
 
+.footer-link { color: hsla(0, 0%, 0%); 
+               text-decoration: none;
+               margin-bottom: 0.3rem;
+               font-family: "Inter", sans-serif;
+            }
 .footer-link:hover { color: hsl( 0, 100%, 100%); }
 
 .copyright {
@@ -275,7 +288,7 @@ footer .wrapper { text-align: center; }
 
  footer .wrapper { text-align: left; }
 
- .footer-text { margin: 0; }
+ .footer-text { margin: 0 }
 
 }
 
