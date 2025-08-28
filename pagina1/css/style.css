@@ -1,3 +1,5 @@
+html { line-height: 1.8; }
+
 /*---------------------------------*\
   #HEADER
 \*---------------------------------*/
@@ -253,6 +255,7 @@ footer .wrapper { text-align: center; }
     color: hsl( 0, 0%, 100%);
     font-weight: 700;
     margin-bottom: 0.4rem;
+    font-family: "Inter", sans-serif;
 }
 
 .footer-link { color: hsla(0, 0%, 0%); 
@@ -288,7 +291,7 @@ footer .wrapper { text-align: center; }
 
  footer .wrapper { text-align: left; }
 
- .footer-text { margin: 0 }
+ .footer-text { margin: 0; }
 
 }
 
