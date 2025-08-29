@@ -1,5 +1,26 @@
 html { line-height: 1.8; }
 
+.light-theme { 
+    background-color: hsl(219, 95%, 58%);
+    background-color: hsl( 0, 0%, 97%);
+    background-color: hsl( 0, 100%, 97%);
+    background-color: hsl( 0, 0%, 99%);
+    background-color: hsl( 0, 0%, 100%);
+    background-color: hsl( 0, 0%, 0%);
+    background-color: hsl( 214, 20%, 69%);
+    background-color: hsl( 0, 100%, 100%);
+ }
+
+ .dark-theme { 
+    background-color: hsl( 0, 0%, 0%);
+    background-color: hsl( 216, 5%, 18%);
+    background-color: hsl( 0, 0%, 100%);
+    background-color: hsl( 0, 98%, 48%);
+    background-color: hsl(209, 12%, 46%);
+    background-color: hsl( 214, 20%, 69%);
+    background-color: hsl(224, 93%, 59%);
+  }
+
 /*---------------------------------*\
   #HEADER
 \*---------------------------------*/
@@ -18,6 +39,13 @@ header .flex-wrapper { display: none; }
     padding: 15px 0;
 }
 
+button {  
+    font: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
 .logo-light,
 .logo-dark { display: none; }
 
@@ -32,9 +60,7 @@ header .btn-group {
     gap: 15px;
 }
 
-.theme-btn-mobile,
-.nav-menu-btn,
-.nav-close-btn {
+.theme-btn-mobile, .nav-menu-btn, .nav-close-btn {
     background-color: hsl( 0, 0%, 99%);
     color: hsl( 214, 20%, 69%);
     width: 40px;
