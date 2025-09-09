@@ -1,5 +1,18 @@
 html { line-height: 1.8; }
 
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-inline: auto;
+    margin: auto; /* fallback for margin-inline */
+    padding: 0 15px;
+}
+
+
 .light-theme { 
     background-color: hsl(219, 95%, 58%);
     background-color: hsl( 0, 0%, 97%);
@@ -26,8 +39,6 @@ html { line-height: 1.8; }
 \*---------------------------------*/
 
  header { background-color: hsl(219, 95%, 58%);}
-
- *{ margin: 0; }
 
 header .flex-wrapper { display: none; }
 
@@ -121,7 +132,10 @@ header .btn-group {
 .mobile-nav .nav-link {
     font-size: 1.25rem;
     color: hsl( 0, 0%, 0%);
+    text-decoration: none;
 }
+
+li { list-style: none; }
 
 .nav-link { text-decoration: none; }
 
@@ -250,8 +264,6 @@ header .flex-wrapper {
 
 footer { background: hsl(219, 95%, 58%); }
 
-*{ margin: 0; }
-
 footer .container {
     padding: 5rem 15px;
     display: grid;
@@ -275,6 +287,7 @@ footer .wrapper { text-align: center; }
     color: hsl( 0, 0%, 100%);
     font-weight: 100;
     margin-bottom: 0.4rem;
+    translate: 32%;
 }
 
 .footer-title {
