@@ -497,8 +497,32 @@ header .btn-group {
 
 .load-more:hover { background: var(--accent); }
 
+.teste img {
+  width: 100vh;
+}
+
+.caixa-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: blue;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item {
+  flex: 1 1 200px;
+}
 
 
+/*
+.caixa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+*/
 
 
 /*-----------------------------------*\ 
