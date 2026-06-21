@@ -497,23 +497,30 @@ header .btn-group {
 
 .load-more:hover { background: var(--accent); }
 
-.teste img {
+.respon {
   width: 100vh;
 }
 
-.caixa-container {
+.block {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  background-color: blue;
+  background: var(--background-tertiary);
+  border-radius: 10px;
 }
 
-.item img {
+.text img {
   width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
-.item {
+.text {
   flex: 1 1 200px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: white;
 }
 
 
