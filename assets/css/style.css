@@ -42,7 +42,7 @@
    */
 
   --background-primary: hsl(0, 0%, 9%);
-  --background-secondary: hsl(216, 5%, 18%);
+  --background-secondary: hsl(225, 84%, 49%);
   --background-tertiary: hsl(0, 0%, 100%);
 
   --action-primary: hsl(0, 0%, 100%);
@@ -50,7 +50,7 @@
 
   --foreground-primary: hsl(0, 0%, 100%);
   --foreground-secondary: hsl(209, 12%, 46%);
-  --foreground-tertiary: hsl(214, 20%, 69%);
+  --foreground-tertiary: hsl(0, 0%, 100%);
 
   --accent: hsl(224, 93%, 59%);
 
@@ -204,13 +204,15 @@ html {
 
 .btn-primary {
   background-color: red;
-  color: var(--white);
+  color: var(--action-primary);
   padding: 0.6875rem 1.1875rem;
+  border: 3px solid var(--action-primary);
 }
 
 .btn-primary:hover {
   background: var(--action-primary);
-  color: var(--action-primary);
+  color: var(--background-primary);
+  border-color: var(--accent);
 }
 
 .btn-secondary {
