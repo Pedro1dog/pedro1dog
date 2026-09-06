@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P1D Oficial</title>
 
+    <style>
+
+      div.caixa {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+      }
+
+      div.bloco {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      div.bloco > img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+      }
+
+    </style>
+
     <!--
       - favicon
     -->
@@ -63,14 +87,13 @@
 
             <h1 class="h1">Penâlti</h1>
 
-            <img src="./image/Pedro segurando uma bola de futebol.jpg" alt="Pedro segurando uma bola de futebol" width="250" class="blog-banner-img">
+            <div class="caixa">
+              <div class="bloco"><img src="./image/João conversando com a Laura enquanto varre o chão.jpg" alt="João conversando com a Laura"></div>
 
-            <p class="blog-text">
-              Nesta nova curta animação, veremos Pedro das suas várias tentativas de fazer um simples gol de penâlti, será que desta vez vai?
-              <br>
-              Como de costume, Pedro treina para conseguir fazer gols de penâlti. Esse é mais uma de nossas curtas animações, espero que gostem.
-              </br>
-            </p>
+              <div class="bloco">
+                Como de costume, Pedro treina para conseguir fazer gols de penâlti. Esse é mais uma de nossas curtas animações, espero que gostem.
+              </div>
+            </div>
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qRJc4k3_hJk?si=tzw4lm1xcwQc7_iT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
