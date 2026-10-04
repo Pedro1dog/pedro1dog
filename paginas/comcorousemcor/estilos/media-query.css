@@ -6,6 +6,10 @@
         background-color: brown;
     }
 
+    article {
+        width: 100%;
+    }
+
     .s1 {
         display: flex;
         flex-flow: row nowrap;
@@ -14,7 +18,7 @@
 
     .s1 img {
         width: 300px;
-        height: 110px;
+        height: 170px;
     }
 
     .s1 p {
@@ -22,4 +26,29 @@
         flex-flow: row-reverse nowrap;
         margin-left: 12px;
     }
+}
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        background-color: rgb(42, 61, 165);
+    }
+
+    .s1 {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+
+    .s1 img {
+        width: 190px;
+        height: 105px;
+    }
+
+    .s1 p {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        margin-left: 12px;
+    }
+    
 }
